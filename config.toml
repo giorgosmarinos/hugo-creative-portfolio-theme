@@ -42,16 +42,20 @@ googleAnalytics = ""
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
+  name = "Αρχική"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Υπηρεσίες"
+  url = "services/"
+
+  [[params.navlinks]]
+  name = "Διαβάστε"
   url = "portfolio/"
   home = true
 
   [[params.navlinks]]
-  name = "About"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "Get in touch"
+  name = "Επικοινωνία"
   url = "contact/"
 
   [params.social]
