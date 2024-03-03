@@ -14,8 +14,7 @@ googleAnalytics = ""
   description = "Describe your website"
   copyright = "&copy;2016 Your name or company"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    '<img src="/img/εικόνα_Viber_2022-09-14_11-33-03-196.jpg" alt="Profile Image" style="width: 50%;">'
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -44,6 +43,7 @@ googleAnalytics = ""
   [[params.navlinks]]
   name = "Αρχική"
   url = "about/"
+  home = true
 
   [[params.navlinks]]
   name = "Υπηρεσίες"
@@ -52,7 +52,6 @@ googleAnalytics = ""
   [[params.navlinks]]
   name = "Διαβάστε"
   url = "portfolio/"
-  home = true
 
   [[params.navlinks]]
   name = "Επικοινωνία"
@@ -70,3 +69,4 @@ googleAnalytics = ""
   gitlab        = "full profile url in gitlab"
   youtube       = "full profile url in youtube"
   whatsapp      = "wa.me service link"
+ 
